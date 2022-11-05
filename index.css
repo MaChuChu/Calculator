@@ -1,0 +1,38 @@
+body {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+td {
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    user-select: none;
+}
+
+#output {
+    background-color: white;
+    border: 2px solid orange;
+}
+
+#input {
+    border: none;
+    appearance: none;
+    border-radius: 3px;
+    width: 90%;
+    font-size: 20px;
+}
+
+td:hover:not(#output) {
+    background-color: rgb(181, 121, 8);
+    cursor: pointer;
+}
